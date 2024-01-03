@@ -1,0 +1,60 @@
+table{
+    margin: auto;
+    padding: auto;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+th, td{
+
+    text-align: center;
+    border: 1px solid rgb(209, 207, 207);
+}
+
+th{
+    font-weight: bold;
+    background-color: blue;
+}
+tr{
+    background-color: white;
+}
+td {
+    
+    color: black;
+}
+
+tr:hover{
+    background-color: rgb(124, 124, 125);
+}
+
+.bloco-horario {
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+    height: 600px;
+    background-color: white;
+        background-image: url(imagens/imagem-corpo.jpg);
+    color: black;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 10%;
+    padding: 30px;
+    border-radius: 10px;
+    float: left;
+    border: 1px solid black;
+}
+
+#botao{
+    background-color: rgb(0, 26, 255);
+    border: 1px solid rgb(0, 26, 255);
+    cursor: pointer;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+}
+
+#botao:hover{
+   opacity: 0.6;
+  
+}

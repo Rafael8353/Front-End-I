@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Vampire;
+    src: url(../fonts/Vampire\ Wars.ttf);
+ }
+
+ @font-face {
+    font-family: Roboto;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+ }
+
+header{
+    position: sticky;
+    top: 0;
+}
+.menu{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border: 2px solid blue;
+}
+
+.pagina{
+    text-align: center;
+    background-color: black;
+    padding: 1px;
+    border: 2px solid blue;
+}
+
+h1,h2,h3 {
+    text-align: center;
+   
+}
+
+h1{
+    font-family: Vampire;
+    font-size: 30px;
+    color: rgb(5, 195, 248);
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
+}
+
+h2{
+    font-family: Vampire;
+    font-size: 25px;
+    color: rgb(0, 183, 255);
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
+}
+
+h3{
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+}
+
+a {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    
+}
+.menu a:hover{
+    background-color: rgb(134, 135, 135);
+}
+
+p{
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+span{
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.imagens{
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    display: block;
+}
+
+

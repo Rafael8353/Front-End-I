@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marcar Horários</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table.css">
+</head>
+
+<body>
+    <header>
+        <div class="pagina">
+            <h1>Página do Rafael</h1>
+        </div>
+        <div class="menu">
+            <a href="inicio.html">Início</a>
+            <a href="sobre.html">Sobre mim</a>
+            <a href="curriculo.html">Currículo</a>
+            <a href="citacoes.html">Citações</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="horarios.html">Horários</a>
+            <a href="marcar.html">Marcar Horário</a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="bloco-inicial">
+                <h1>Marcar Horário</h1>
+                <form method="POST" action="horarios.html">
+                    <fieldset>
+                        <legend>Dados para marcar horário</legend><br>
+                        Nome:<input type="text" name="nome" required><br><br>
+                        Email:<input type="email" name="email" required><br><br>
+                        Assunto:<input type="text" name="assunto" required><br><br>
+                        Sexo:<input type="radio" name="funcao" >Masculino
+                        <input type="radio" name="funcao" >Feminino
+                        <input type="radio" name="funcao">Outro<br><br>
+                        Dia:<input type="date" name="data" required><br><br>
+                        Horário:<input type="time" name="hora" required><br><br>
+                        Mensagem: <textarea name="mensagem" rows="5" required></textarea><br><br>
+                        Arquivo (caso necessário): <input type="file" name="arquivo"><br><br>
+                        <button id="botao">Enviar</button><br>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <aside>
+            <div class="favoritos">
+                <h2>Favoritos</h2>
+                <a target="_blank" href="http://www.ifsul.edu.br/"><img class="imagens-favs" src="imagens/if.png"></a><span>IFSUL</span>
+                <a target="_blank" href="https://web.whatsapp.com/"><img class="imagens-favs" src="imagens/WhatsApp.webp"></a><span>Whatsapp</span>
+                <a target="_blank" href="https://pt-br.facebook.com/"><img class="imagens-favs" src="imagens/Facebook.webp"></a><span>Facebook</span>
+                <a target="_blank" href="https://www.instagram.com/"><img class="imagens-favs" src="imagens/Instagram.webp"></a><span>Instagram</span>
+                <a target="_blank" href="https://www.netflix.com/br/"><img class="imagens-favs" src="imagens/netflix.png"></a><span>Netflix</span>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <h1>Feito por Rafael</h1>
+        </div>
+    </footer>
+
+</body>
+
+</html>

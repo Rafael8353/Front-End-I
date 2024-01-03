@@ -1,0 +1,93 @@
+body {
+
+    background-image: url(../imagens/fundo-anime.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.bloco-inicial {
+    font-family: 'Times New Roman', Times, serif;
+    width: 40%;
+    height: 600px;
+    background-color: white;
+    background-image: url(../imagens/imagem-corpo.jpg);
+    color: black;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+
+.bloco-dois {
+    font-family: 'Times New Roman', Times, serif;
+    width: 40%;
+    height: 1100px;
+    background-color: white;
+    background-image: url(../imagens/imagem-corpo.jpg);
+    color: black;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 10%;
+    padding: 30px;
+    border-radius: 10px;
+    float: left;
+    border: 1px solid black;
+}
+
+.rodape {
+    text-align: center;
+    margin-top: 10%;
+    padding: 1px;
+    color: white;
+    background-color: black;
+    border: 2px solid blue;
+    
+}
+
+.rodape-dois {
+    text-align: center;
+    margin-top: 40%;
+    padding: 1px;
+    color: white;
+    background-color: black;
+    border: 2px solid blue;
+    
+}
+
+.favoritos{
+    text-align: center;
+    display: inline-block;
+    width: 10%;
+    height: 600px;
+    background-image: url(../imagens/imagem-favoritos.jpg);
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    color: black;
+    border: 1px solid black;
+
+    
+}
+
+
+.favoritos a{
+    color: black;
+}
+
+.imagens-favs{
+    width: 50px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    
+}
